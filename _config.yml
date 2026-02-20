@@ -17,9 +17,9 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "물리적 광학과 디지털 제어의 조화"
+title                    : "물리적 광학과 디지털 제어"
 title_separator          : "-"
-subtitle                 : "Harmony of Physical Optics and Digital Control" # site tagline that appears below site title in masthead
+subtitle                 : "Physical Optics and Digital Control" # site tagline that appears below site title in masthead
 name                     : "김윤호(Ryan Kim)"
 description              : "광학 엔지니어의 시스템 설계 저장소"
 url                      : "https://RyanKim.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -127,7 +127,7 @@ analytics:
 author:
   name             : "김윤호(Ryan Kim)"
   avatar           : https://github.com/user-attachments/assets/ee788ff0-5dc1-4406-9cd2-a860c33d9582 # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Optical Engineer(optical designer & optical researcher)"
+  bio              : "Optical Engineer(optical scientist)"
   location         : "South Korea"
   email            :
   links:
