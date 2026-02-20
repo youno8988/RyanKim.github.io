@@ -111,9 +111,9 @@ og_image                 : https://avatars.githubusercontent.com/u/79832255?v=4 
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : "김기덕(Noah Kim)" # If the user or organization name differs from the site's name
+  name                   : "김윤호(Ryan Kim)" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://github.com/gideokkim"
+    - "https://github.com/youno8988"
 
 # Analytics
 analytics:
@@ -125,18 +125,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "김기덕(Noah Kim)"
+  name             : "김윤호(Ryan Kim)"
   avatar           : https://github.com/user-attachments/assets/ee788ff0-5dc1-4406-9cd2-a860c33d9582 # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "CUDA Engineer(parallel programming developer)"
+  bio              : "Optical Engineer(optical designer & optical researcher)"
   location         : "South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:noah.dev4127@gmail.com"
+      url: "mailto:youno8988@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://gideokkim.github.io"
+      url: "https://youno8988.github.io"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -145,7 +145,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/gideokkim"
+      url: "https://github.com/youno8988"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -155,7 +155,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:noah.dev4127@gmail.com"
+      url: "mailto:youno8988@gmail.com"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   # url:
@@ -164,7 +164,7 @@ footer:
     #   # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/gideokkim"
+      url: "https://github.com/youno8988"
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
     #   # url:
