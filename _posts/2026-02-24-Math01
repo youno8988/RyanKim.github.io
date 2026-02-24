@@ -23,23 +23,40 @@
 변수: $(r, \theta, \phi)$ ($r$: 반지름, $\theta$: 천정각, $\phi$: 방위각)
 단위 벡터: $\hat{r}, \hat{\theta}, \hat{\phi}$
 특징: 점전하, 구 전하 분포 등 중심점으로부터의 대칭성이 중요할 때 사용합니다.
-3. 벡터 연산 (Vector Operations)
-단위 벡터 (Unit Vector)
-
-크기가 1이며 방향만을 나타내는 벡터입니다. 임의의 벡터 $\mathbf{A}$에 대해 단위 벡터 $\hat{a}$는 다음과 같이 정의됩니다.
-$$\hat{a} = \frac{\mathbf{A}}{|\mathbf{A}|}$$
-내적 (Dot Product / Scalar Product)
-
-두 벡터를 곱해 스칼라 값을 얻는 연산입니다.
-정의: $\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}||\mathbf{B}|\cos\theta$
-성분 계산: $A_xB_x + A_yB_y + A_zB_z$
-물리적 의미: 한 벡터의 다른 벡터 방향으로의 투영(projection), 또는 일(Work)의 계산에 쓰입니다.
-외적 (Cross Product / Vector Product)
-
-두 벡터를 곱해 새로운 벡터를 얻는 연산입니다.
-정의: $\mathbf{A} \times \mathbf{B} = (|\mathbf{A}||\mathbf{B}|\sin\theta) \hat{n}$ ($\hat{n}$은 오른손 법칙에 따른 수직 방향)
-성분 계산: 행렬식(Determinant)을 사용하여 계산합니다.
-물리적 의미: 토크(Torque), 로런츠 힘($\mathbf{v} \times \mathbf{B}$), 포인팅 벡터($\mathbf{E} \times \mathbf{H}$) 등을 정의할 때 필수적입니다.
 Vector Cross Product right hand rule, AI generated
 Getty Images
-맥스웰 방정식을 실제 문제에 적용할 때, 연산자 $\nabla$ (Del)가 각 좌표계에서 어떻게 표현되는지(Gradient, Divergence, Curl)를 파악하는 것이 다음 단계입니다. 혹시 구체적인 좌표계에서의 변환식이나 특정 방정식의 유도 과정이 궁금하신가요?
+3. 단위벡터의 기본 성질
+직교 좌표계에서 각 축의 단위벡터는 서로 수직이며 크기가 1입니다.
+크기: $|\hat{x}| = |\hat{y}| = |\hat{z}| = 1$
+방향: 각 축은 서로 $90^\circ$를 이룹니다.
+3.1 내적 (Dot Product)
+내적은 두 벡터의 같은 방향 성분끼리의 곱을 합산하는 연산입니다.
+단위벡터 간의 내적
+
+내적의 정의 $\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}||\mathbf{B}|\cos\theta$에 의해:
+자기 자신과의 내적 ($\theta = 0^\circ$): $\hat{x} \cdot \hat{x} = 1 \cdot 1 \cdot \cos 0^\circ = \mathbf{1}$ (마찬가지로 $\hat{y}\cdot\hat{y} = \hat{z}\cdot\hat{z} = 1$)
+서로 다른 단위벡터와의 내적 ($\theta = 90^\circ$): $\hat{x} \cdot \hat{y} = 1 \cdot 1 \cdot \cos 90^\circ = \mathbf{0}$ (서로 수직인 모든 조합은 0)
+벡터 성분 전개
+
+두 벡터 $\mathbf{A} = A_x\hat{x} + A_y\hat{y} + A_z\hat{z}$와 $\mathbf{B} = B_x\hat{x} + B_y\hat{y} + B_z\hat{z}$를 내적하면, 서로 다른 성분끼리의 곱은 모두 사라지고 같은 성분끼리의 곱만 남습니다.
+$$\mathbf{A} \cdot \mathbf{B} = A_xB_x + A_yB_y + A_zB_z$$
+3.2 외적 (Cross Product)
+외적은 두 벡터에 공통으로 수직인 방향의 벡터를 만드는 연산입니다.
+단위벡터 간의 외적 (오른손 법칙)
+
+외적의 정의 $\mathbf{A} \times \mathbf{B} = (|\mathbf{A}||\mathbf{B}|\sin\theta) \hat{n}$에 의해:
+자기 자신과의 외적 ($\theta = 0^\circ$): $\hat{x} \times \hat{x} = \mathbf{0}$ ($\sin 0^\circ = 0$이므로 같은 방향끼리는 외적이 0입니다.)
+서로 다른 단위벡터와의 외적 ($\theta = 90^\circ$): 순환 순서($x \to y \to z \to x$)를 따르면 양(+), 역순이면 음(-)의 부호를 가집니다.
+$\hat{x} \times \hat{y} = \hat{z}$
+$\hat{y} \times \hat{z} = \hat{x}$
+$\hat{z} \times \hat{x} = \hat{y}$
+행렬식(Determinant)을 이용한 표현
+
+외적을 성분별로 일일이 계산하는 것은 복잡하기 때문에, 3x3 행렬식 개념을 도입하여 간단히 정리합니다.
+$$\mathbf{A} \times \mathbf{B} = \begin{vmatrix} \hat{x} & \hat{y} & \hat{z} \\ A_x & A_y & A_z \\ B_x & B_y & B_z \end{vmatrix}$$
+이 행렬식을 **라플라스 전개(소행렬식 전개)**하면 다음과 같은 결과를 얻습니다:
+$\hat{x}$ 성분: $\hat{x} (A_yB_z - A_zB_y)$
+$\hat{y}$ 성분: $-\hat{y} (A_xB_z - A_zB_x)$ (※ 행렬식 규칙상 가운데 항은 마이너스)
+$\hat{z}$ 성분: $\hat{z} (A_xB_y - A_yB_x)$
+최종 정리된 외적의 값:
+$$\mathbf{A} \times \mathbf{B} = (A_yB_z - A_zB_y)\hat{x} + (A_zB_x - A_xB_z)\hat{y} + (A_xB_y - A_yB_x)\hat{z}$$
