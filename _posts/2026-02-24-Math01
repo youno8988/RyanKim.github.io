@@ -1,0 +1,45 @@
+전자기학의 기초가 되는 맥스웰 방정식과 이를 기술하기 위한 수학적 도구들을 정리해 드립니다. 물리학 전공자로서 접하게 되는 핵심 개념들을 체계적으로 요약했습니다.
+1. 맥스웰 방정식 (Maxwell's Equations)
+전자기파의 발생과 전파를 설명하는 4가지 기본 법칙입니다.
+법칙	미분형 (Differential Form)	의미
+가우스 법칙	$\nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0}$	전하가 전기장을 생성함
+가우스 자기 법칙	$\nabla \cdot \mathbf{B} = 0$	자기 홀극은 존재하지 않음
+패러데이 법칙	$\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$	시간에 따라 변하는 자기장이 전기장을 유도함
+앙페르-맥스웰 법칙	$\nabla \times \mathbf{B} = \mu_0 \left( \mathbf{J} + \epsilon_0 \frac{\partial \mathbf{E}}{\partial t} \right)$	전류와 변하는 전기장이 자기장을 유도함
+2. 주요 좌표계 (Coordinate Systems)
+문제의 대칭성(Symmetry)에 따라 적절한 좌표계를 선택하는 것이 풀이의 핵심입니다.
+직교 좌표계 (Cartesian Coordinates)
+
+변수: $(x, y, z)$
+단위 벡터: $\hat{i}, \hat{j}, \hat{k}$ (또는 $\hat{x}, \hat{y}, \hat{z}$)
+특징: 가장 기본이 되는 좌표계로, 모든 축이 서로 직교하며 단위 벡터의 방향이 변하지 않습니다.
+원통 좌표계 (Cylindrical Coordinates)
+
+변수: $(\rho, \phi, z)$ ($\rho$: 반지름, $\phi$: 방위각, $z$: 높이)
+단위 벡터: $\hat{\rho}, \hat{\phi}, \hat{z}$
+특징: 무한 도선이나 원기둥 형태의 대칭성을 가진 전자기 문제를 풀 때 유리합니다.
+구면 좌표계 (Spherical Coordinates)
+
+변수: $(r, \theta, \phi)$ ($r$: 반지름, $\theta$: 천정각, $\phi$: 방위각)
+단위 벡터: $\hat{r}, \hat{\theta}, \hat{\phi}$
+특징: 점전하, 구 전하 분포 등 중심점으로부터의 대칭성이 중요할 때 사용합니다.
+3. 벡터 연산 (Vector Operations)
+단위 벡터 (Unit Vector)
+
+크기가 1이며 방향만을 나타내는 벡터입니다. 임의의 벡터 $\mathbf{A}$에 대해 단위 벡터 $\hat{a}$는 다음과 같이 정의됩니다.
+$$\hat{a} = \frac{\mathbf{A}}{|\mathbf{A}|}$$
+내적 (Dot Product / Scalar Product)
+
+두 벡터를 곱해 스칼라 값을 얻는 연산입니다.
+정의: $\mathbf{A} \cdot \mathbf{B} = |\mathbf{A}||\mathbf{B}|\cos\theta$
+성분 계산: $A_xB_x + A_yB_y + A_zB_z$
+물리적 의미: 한 벡터의 다른 벡터 방향으로의 투영(projection), 또는 일(Work)의 계산에 쓰입니다.
+외적 (Cross Product / Vector Product)
+
+두 벡터를 곱해 새로운 벡터를 얻는 연산입니다.
+정의: $\mathbf{A} \times \mathbf{B} = (|\mathbf{A}||\mathbf{B}|\sin\theta) \hat{n}$ ($\hat{n}$은 오른손 법칙에 따른 수직 방향)
+성분 계산: 행렬식(Determinant)을 사용하여 계산합니다.
+물리적 의미: 토크(Torque), 로런츠 힘($\mathbf{v} \times \mathbf{B}$), 포인팅 벡터($\mathbf{E} \times \mathbf{H}$) 등을 정의할 때 필수적입니다.
+Vector Cross Product right hand rule, AI generated
+Getty Images
+맥스웰 방정식을 실제 문제에 적용할 때, 연산자 $\nabla$ (Del)가 각 좌표계에서 어떻게 표현되는지(Gradient, Divergence, Curl)를 파악하는 것이 다음 단계입니다. 혹시 구체적인 좌표계에서의 변환식이나 특정 방정식의 유도 과정이 궁금하신가요?
