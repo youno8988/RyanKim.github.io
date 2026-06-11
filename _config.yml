@@ -111,7 +111,7 @@ og_image                 : /assets/img/profile.jpeg # Open Graph/Twitter default
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : "김윤호(Ryan Kim)" # If the user or organization name differs from the site's name
+  name                   : "Ryan Kim" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://github.com/youno8988"
 
@@ -125,7 +125,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "김윤호(Ryan Kim)"
+  name             : "Ryan Kim"
   avatar           : "/assets/img/profile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Optical Engineer(optical scientist)"
   location         : "South Korea"
