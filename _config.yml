@@ -127,7 +127,7 @@ analytics:
 author:
   name             : "Ryan Kim"
   avatar           : "/assets/img/profile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Optical Engineer(optical scientist)"
+  bio              : "Optical Engineer"
   location         : "South Korea"
   email            :
   links:
