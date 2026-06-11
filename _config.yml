@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "물리적 광학과 디지털 제어"
+title                    : "Physical Optics and Digital Control"
 title_separator          : "-"
-subtitle                 : "Physical Optics and Digital Control" # site tagline that appears below site title in masthead
-name                     : "김윤호(Ryan Kim)"
-description              : "광학 엔지니어의 시스템 설계 저장소"
+subtitle                 : "Wave / Diffractive Optics / Optical Evaluation" # site tagline that appears below site title in masthead
+name                     : "Ryan Kim"
+description              : "Optical System Design Archive"
 url                      : "https://RyanKim.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "youno8988/RyanKim.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
