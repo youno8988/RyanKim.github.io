@@ -126,7 +126,7 @@ analytics:
 # Site Author
 author:
   name             : "김윤호(Ryan Kim)"
-  avatar           : https://github.com/user-attachments/assets/ee788ff0-5dc1-4406-9cd2-a860c33d9582 # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/img/profile.jpeg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Optical Engineer(optical scientist)"
   location         : "South Korea"
   email            :
