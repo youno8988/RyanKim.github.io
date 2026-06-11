@@ -106,7 +106,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "https://avatars.githubusercontent.com/u/262579116?s=400&u=e933f9e43c126599a945170dc830d042b9ddde9f&v=4" # Open Graph/Twitter default site image
+og_image                 : "/assets/img/profile.jpeg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
