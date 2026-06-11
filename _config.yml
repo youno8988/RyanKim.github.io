@@ -126,7 +126,7 @@ analytics:
 # Site Author
 author:
   name             : "Ryan Kim"
-  avatar           : "/RyanKim.github.io/assets/img/profile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://github.com/youno8988.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Optical Engineer"
   location         : "South Korea"
   email            :
