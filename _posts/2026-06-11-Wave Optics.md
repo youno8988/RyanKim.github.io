@@ -13,11 +13,7 @@ toc_sticky: true
 
 Here is the translated README draft. I have carefully selected the exact terminology and phrasing used in B. D. Guenther's *Modern Optics* (such as "traveling wave," "harmonic temporal dependence," "paraxial approximation," and "ray transfer matrix") to ensure it perfectly aligns with standard optics literature [1-4]. 
 
-You can copy and paste the code block below directly into your GitHub `.md` file.
 
-***
-
-```markdown
 # Modern Optics & Wave Mechanics
 
 This repository contains study notes and summaries based on the mathematical foundations of wave theory and B. D. Guenther's *Modern Optics*.
