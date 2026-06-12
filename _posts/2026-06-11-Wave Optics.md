@@ -58,7 +58,7 @@ y(x,t) = B sin(2πx/λ) cos(ωt)
 This expression combines the spatial amplitude [B sin(2πx/λ)] and the temporal amplitude [cos(ωt)], representing the interference between the right-traveling and left-traveling waves.
 
 > 📊 **[Graph] Amplitude of a Standing Wave**
-> ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/standingwavaegraph.png)
+> <img src="{{ site.url }}{{ site.baseurl }}/assets/images/standingwavegraph.png" alt="">
 
 * **Propagation Constant (Wavenumber)** k: Specifies the number of spatial periods within 2π.
   k = 2π/λ,  ω = 2π/T,  v = ω/k
