@@ -59,9 +59,7 @@ This expression combines the spatial amplitude [B sin(2πx/λ)] and the temporal
 
 > **[Graph] Amplitude of a Standing Wave**
 > 
-> ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/waveoptics/standingwavegraph.png)
-> 
-> <img src="{{ site.url }}{{ site.baseurl }}/assets/images/waveoptics/standingwavegraph.png" alt="">
+> {% include figure popup=true image_path="{{ site.baseurl }}/assets/images/waveoptics/standingwavegraph.png" alt="정상파 그래프" caption="이곳에 **굵은 글씨**나 설명을 넣습니다." %}
 
 * **Propagation Constant (Wavenumber)** k: Specifies the number of spatial periods within 2π.
   k = 2π/λ,  ω = 2π/T,  v = ω/k
