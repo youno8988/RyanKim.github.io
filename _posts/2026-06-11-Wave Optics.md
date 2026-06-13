@@ -33,8 +33,8 @@ A traveling wave is a disturbance that propagates without change in amplitude or
 * Propagating in the +x direction: y = f(vt - x)
 * Propagating in the -x direction: y = g(vt + x)
 
-> 📊 **[Graph] Traveling Wave**
-> ![Traveling Wave Graph](./images/traveling_wave.png)
+> **[Graph] Traveling Wave**
+> ![트래블링 웨이브 그래프]({{ site.baseurl }}/assets/images/waveoptics/travelingwavegraph.png)
 
 ### 1.2 Harmonic Waves
 The principle of a point on a string undergoing transverse simple harmonic motion is mathematically identical to a restoring force in a spring.
@@ -58,7 +58,7 @@ y(x,t) = B sin(2πx/λ) cos(ωt)
 This expression combines the spatial amplitude [B sin(2πx/λ)] and the temporal amplitude [cos(ωt)], representing the interference between the right-traveling and left-traveling waves.
 
 > **[Graph] Amplitude of a Standing Wave**
-![정상파 그래프]({{ site.baseurl }}/assets/images/waveoptics/standingwavegraph.png)
+> ![정상파 그래프]({{ site.baseurl }}/assets/images/waveoptics/standingwavegraph.png)
 
 * **Propagation Constant (Wavenumber)** k: Specifies the number of spatial periods within 2π.
   k = 2π/λ,  ω = 2π/T,  v = ω/k
@@ -70,8 +70,8 @@ For a string under tension, applying dimensional analysis to the tension T and t
 
 where the phase velocity is v = √(T/ρ).
 
-> 📊 **[Graph] String Under Tension**
-> ![Tension Graph](./images/tension.png)
+> **[Graph] String Under Tension**
+> ![스트링 텐션 그래프]({{ site.baseurl }}/assets/images/waveoptics/tensiongraph.png)
 
 ---
 
@@ -88,7 +88,7 @@ The harmonic temporal dependence of electromagnetic waves is often expressed in 
 U(x,y,z,t) ≡ E(x,y,z)e^(-iωt)
 
 > 📊 **[Graph] Rotation in the Complex Plane**
-> ![Euler Rotation Graph](./images/euler_complex.png)
+> ![오일러 로테이션 그래프]({{ site.baseurl }}/assets/images/waveoptics/eulerrotaiongraph.png)
 
 ### 3.3 Helmholtz Equation
 By substituting the complex representation of the wave into the wave equation, we obtain the Helmholtz equation, which describes the spatial properties of the electromagnetic wave:
