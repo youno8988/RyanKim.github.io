@@ -22,7 +22,7 @@ title_separator          : "-"
 subtitle                 : "Wave / Diffractive Optics / Optical Evaluation" # site tagline that appears below site title in masthead
 name                     : "Ryan Kim"
 description              : "Optical System Design Archive"
-url                      : "https://RyanKim.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://youno8988.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/RyanKim.github.io"
 repository               : "youno8988/RyanKim.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 
