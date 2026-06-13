@@ -88,7 +88,7 @@ The harmonic temporal dependence of electromagnetic waves is often expressed in 
 U(x,y,z,t) ≡ E(x,y,z)e^(-iωt)
 
 > **[Graph] Rotation in the Complex Plane**
-> ![오일러 로테이션 그래프]({{ site.baseurl }}/assets/images/waveoptics/eulerrotaiongraph.png)
+> ![오일러 로테이션 그래프]({{ site.baseurl }}/assets/images/waveoptics/eulerrotationgraph.png)
 
 ### 3.3 Helmholtz Equation
 By substituting the complex representation of the wave into the wave equation, we obtain the Helmholtz equation, which describes the spatial properties of the electromagnetic wave:
