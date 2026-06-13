@@ -87,7 +87,7 @@ The harmonic temporal dependence of electromagnetic waves is often expressed in 
 
 U(x,y,z,t) ≡ E(x,y,z)e^(-iωt)
 
-> 📊 **[Graph] Rotation in the Complex Plane**
+> **[Graph] Rotation in the Complex Plane**
 > ![오일러 로테이션 그래프]({{ site.baseurl }}/assets/images/waveoptics/eulerrotaiongraph.png)
 
 ### 3.3 Helmholtz Equation
