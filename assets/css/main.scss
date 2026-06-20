@@ -8,9 +8,9 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* [사용자 정의] 프로필 사진 타원형 문제 해결 - 정사각형 틀에서 자르기 */
+/* [사용자 정의] 프로필 사진 타원형 문제 해결 */
 .author__avatar img {
-  aspect-ratio: 1 / 1; /* 틀을 강제로 정사각형 비율로 고정 */
-  object-fit: cover;    /* 직사각형 이미지가 틀 안에서 찌그러지지 않게 꽉 채우고 남는 부분은 자름 */
-  border-radius: 50%;   /* 그 상태에서 테두리를 둥글게 처리 */
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
 }
