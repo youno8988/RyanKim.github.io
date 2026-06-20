@@ -20,7 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Physical Optics and Digital Control"
 title_separator          : "-"
 subtitle                 : "Wave Optics / Diffractive Optics / Optical Evaluation" # site tagline that appears below site title in masthead
-name                     : "Ryan Kim"
+name                     : "Yunho Kim"
 description              : "Optical System Design Archive"
 url                      : "https://youno8988.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/RyanKim.github.io"
