@@ -1,14 +1,17 @@
-# main links
+# 상단 메인 메뉴 (기존)
 main:
-  - title: "Home"
-    url: /index.html
-  - title: "Category"
+  - title: "About"
+    url: /
+  - title: "Categories"
     url: /categories/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
+# 메인 페이지 좌측에 띄울 카테고리 사이드바 목록 (새로 추가)
+category_sidebar:
+  - title: "전체 글 보기"
+    url: /categories/
+  - title: "Optics & Vision"
+    url: /categories/optics/
+  - title: "Algorithm & Control"
+    url: /categories/algorithm/
+  - title: "Personal"
+    url: /categories/personal/
