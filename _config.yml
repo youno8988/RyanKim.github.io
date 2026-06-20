@@ -125,11 +125,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ryan Kim"
-  avatar           : "https://github.com/youno8988.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Optical Engineer"
-  location         : "South Korea"
-  email            :
+  name: "Kim Ryan"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Optical Design Engineer & Senior Researcher"
+  location: "Ansan, Gyeonggi-do"
+  email: "your-email@example.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
