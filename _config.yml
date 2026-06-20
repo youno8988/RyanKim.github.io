@@ -22,9 +22,9 @@ title_separator          : "-"
 subtitle                 : "Wave Optics / Diffractive Optics / Optical Evaluation" # site tagline that appears below site title in masthead
 name                     : "Yunho Kim"
 description              : "Optical System Design Archive"
-url                      : "https://youno8988.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/RyanKim.github.io"
-repository               : "youno8988/RyanKim.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : "https://YunhoKim.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/YunhoKim.github.io"
+repository               : "youno8988/YunhoKim.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 
 # logo
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
